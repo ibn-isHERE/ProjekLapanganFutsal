@@ -1,0 +1,56 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: #fff;
+    text-align: center;
+}
+
+/* Container styling */
+.confirmation-container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    color: #4caf50;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Box content styling */
+.confirmation-box h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.confirmation-box .message {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+.confirmation-box .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.confirmation-box .btn:hover {
+    background: #388e3c;
+}

@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-width Header */
+header {
+    background-color: #28a745;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%; /* Make header full-width */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    position: relative;
+    z-index: 100; /* To ensure header is above other content */
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffbb33;
+}
+
+/* Jadwal Booking Section */
+.booking-schedule {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking-schedule h2 {
+    color: #333;
+    font-weight: 600;
+}
+
+.booking-list {
+    margin-top: 20px;
+}
+
+.booking-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.booking-item p {
+    margin: 0;
+}
+
+.booking-item strong {
+    color: #007BFF;
+}
+
+/* Field Selection Section */
+.field-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px; /* Gap between items */
+    flex-wrap: wrap;
+}
+
+.field-type {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%; /* This will allow them to sit side by side */
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.field-type:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.field-info {
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #333;
+    font-weight: 600;
+}
+
+.field-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: opacity 0.3s ease;
+}
+
+.field-img:hover {
+    opacity: 0.8;
+}
+
+.book-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.book-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .field-selection {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .field-type {
+        width: 100%;
+    }
+}
