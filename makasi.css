@@ -1,0 +1,44 @@
+/* Mengatur gaya dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4caf50;
+    color: #333;
+}
+
+/* Gaya untuk wadah konten */
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk judul */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk paragraf */
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tautan tombol */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #4caf50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
