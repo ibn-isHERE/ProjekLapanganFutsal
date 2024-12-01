@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
@@ -9,45 +9,46 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="wadah-utama">
+        <!-- Header -->
         <header>
             <h1>Pemesanan Lapangan Futsal</h1>
             <nav>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="beranda.html">Beranda</a></li>
                     <li><a href="sewa.html">Sewa</a></li>
                     <li><a href="saran.html">Saran</a></li>
                 </ul>
             </nav>
         </header>
 
-        <section class="booking-form">
-            <h2>Form Pemesanan</h2>
-            <form action="process-order.php" method="POST">
-                <div class="form-group">
-                    <label for="name">Nama Pemesan</label>
-                    <input type="text" id="name" name="name" placeholder="Masukkan Nama" required>
+        <!-- Bagian Formulir Pemesanan -->
+        <section class="formulir-pemesanan">
+            <h2>Formulir Pemesanan</h2>
+            <form>
+                <div class="grup-form">
+                    <label for="nama">Nama Pemesan</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan Nama" required>
                 </div>
 
-                <div class="form-group">
-                    <label for="field-type">Pilih Lapangan</label>
-                    <select id="field-type" name="field-type" required>
-                        <option value="small">Lapangan Kecil</option>
-                        <option value="large">Lapangan Besar</option>
+                <div class="grup-form">
+                    <label for="jenis-lapangan">Pilih Lapangan</label>
+                    <select id="jenis-lapangan" name="jenis-lapangan">
+                        <option value="matras">Lapangan Matras</option>
                     </select>
                 </div>
 
-                <div class="form-group">
-                    <label for="hours">Pilih Durasi (Jam)</label>
-                    <select id="hours" name="hours" required>
+                <div class="grup-form">
+                    <label for="durasi">Pilih Durasi (Jam)</label>
+                    <select id="durasi" name="durasi">
                         <option value="1">1 Jam</option>
                     </select>
                 </div>
 
-                <div class="form-group">
-                    <label for="booking-time">Pilih Waktu Booking</label>
-                    <select id="booking-time" name="booking-time" required>
-                        <!-- Options for available times will be dynamically generated based on the chosen hours -->
+                <div class="grup-form">
+                    <label for="waktu-booking">Pilih Waktu Booking</label>
+                    <select id="waktu-booking" name="waktu-booking">
+                        <!-- Opsi Waktu -->
                         <option value="09:00-10:00">09:00 - 10:00</option>
                         <option value="10:00-11:00">10:00 - 11:00</option>
                         <option value="11:00-12:00">11:00 - 12:00</option>
@@ -64,7 +65,7 @@
                     </select>
                 </div>
 
-                <button type="submit" class="submit-button">Pesan Lapangan</button>
+                <button type="submit" class="tombol-pesan"><a href="status.html">Pesan Lapangan</a></button>
             </form>
         </section>
     </div>
