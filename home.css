@@ -1,3 +1,4 @@
+/* Gaya Umum */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -5,6 +6,7 @@ body {
     padding: 0;
 }
 
+/* Bagian Header */
 header {
     background-color: #28a745;
     padding: 20px 0;
@@ -33,13 +35,18 @@ nav ul li a {
     font-size: 18px;
 }
 
-.container {
+nav ul li a:hover {
+    color: #ffbb33; /* Warna berubah saat dihover */
+}
+
+/* Bagian Selamat Datang */
+.kontainer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.intro-section {
+.bagian-selamat-datang {
     background-color: #ffffff;
     padding: 50px;
     margin-top: 30px;
@@ -48,32 +55,34 @@ nav ul li a {
     text-align: center;
 }
 
-.intro-section h2 {
+.bagian-selamat-datang h2 {
     font-size: 32px;
     color: #333333;
 }
 
-.intro-section p {
+.bagian-selamat-datang p {
     font-size: 18px;
     color: #555555;
     line-height: 1.6;
     margin: 20px 0;
 }
 
-.intro-img {
-    width: 100%;
+
+.gambar-selamat-datang {
+    width: 80%;
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
 }
 
-.features-section {
+/* Bagian Fitur */
+.bagian-fitur {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
 }
 
-.feature-box {
+.kotak-fitur {
     background: white;
     padding: 30px;
     border-radius: 8px;
@@ -82,16 +91,17 @@ nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.feature-box h3 {
+.kotak-fitur h3 {
     color: #28a745;
     font-size: 24px;
 }
 
-.feature-box p {
+.kotak-fitur p {
     color: #555555;
     font-size: 16px;
 }
 
+/* Bagian Footer */
 footer {
     background-color: #333333;
     color: white;
