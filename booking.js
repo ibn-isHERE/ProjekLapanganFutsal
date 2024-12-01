@@ -1,13 +1,13 @@
 // Data untuk menyimpan jadwal booking dengan durasi
 const schedule = [
-    { time: '09:00-10:00', field: 'Lapangan Kecil', name: 'Budi' },
+/*  
     { time: '10:00-12:00', field: 'Lapangan Besar', name: 'Andi' },
     { time: '12:00-13:00', field: 'Lapangan Kecil', name: 'Rendy' },
     { time: '14:00-15:00', field: 'Lapangan Besar', name: 'Joko' },
     { time: '15:00-16:00', field: 'Lapangan Kecil', name: 'Fahri' },
     { time: '17:00-18:00', field: 'Lapangan Besar', name: 'Dian' },
     { time: '19:00-20:00', field: 'Lapangan Kecil', name: 'Ali' },
-    { time: '21:00-22:00', field: 'Lapangan Besar', name: 'aril' }
+    { time: '21:00-22:00', field: 'Lapangan Besar', name: 'aril' }*/
 ];
 
 // Fungsi untuk menampilkan jadwal booking di halaman
