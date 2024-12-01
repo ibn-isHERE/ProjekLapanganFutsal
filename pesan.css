@@ -1,4 +1,4 @@
-/* General Styles */
+/* Gaya Umum */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -6,15 +6,15 @@ body {
     padding: 0;
 }
 
-/* Full-width Header */
+/* Header Penuh Lebar */
 header {
     background-color: #28a745;
     padding: 20px 0;
     text-align: center;
-    width: 100%; /* Make header full-width */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    width: 100%;
+    box-sizing: border-box;
     position: relative;
-    z-index: 100; /* To ensure header is above other content */
+    z-index: 100;
 }
 
 header h1 {
@@ -24,7 +24,7 @@ header h1 {
     letter-spacing: 2px;
 }
 
-/* Navigation Styles */
+/* Navigasi */
 nav ul {
     list-style: none;
     padding: 0;
@@ -46,8 +46,8 @@ nav ul li a:hover {
     color: #ffbb33;
 }
 
-/* Booking Form Section */
-.booking-form {
+/* Formulir Pemesanan */
+.formulir-pemesanan {
     background-color: #ffffff;
     padding: 30px;
     margin-top: 30px;
@@ -58,25 +58,25 @@ nav ul li a:hover {
     margin-right: auto;
 }
 
-.booking-form h2 {
+.formulir-pemesanan h2 {
     color: #333;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.form-group {
+.grup-form {
     margin-bottom: 20px;
 }
 
-.form-group label {
+.grup-form label {
     display: block;
     font-size: 16px;
     color: #333;
     margin-bottom: 8px;
 }
 
-.form-group input,
-.form-group select {
+.grup-form input,
+.grup-form select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -84,25 +84,29 @@ nav ul li a:hover {
     font-size: 16px;
 }
 
-.submit-button {
-    background-color: #007BFF;
+/* Tombol Pesan */
+.tombol-pesan {
+    background-color: #28a745;
     color: white;
     padding: 12px 24px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     width: 100%;
-    transition: background-color 0.3s ease;
 }
 
-.submit-button:hover {
-    background-color: #0056b3;
+.tombol-pesan:hover {
+    background-color: #388e3c;
 }
 
-/* Responsive Design */
+.tombol-pesan a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* Responsif */
 @media (max-width: 768px) {
-    .booking-form {
+    .formulir-pemesanan {
         padding: 20px;
     }
 }
