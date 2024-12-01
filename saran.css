@@ -1,3 +1,11 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk Latar Belakang dan Teks */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -5,6 +13,7 @@ body {
     padding: 0;
 }
 
+/* Bagian Header */
 header {
     background-color: #28a745;
     padding: 20px 0;
@@ -33,7 +42,8 @@ nav ul li a {
     font-size: 18px;
 }
 
-.contact-container {
+/* Kontainer Formulir Kontak */
+.kontainer-kontak {
     max-width: 800px;
     margin: 50px auto;
     padding: 30px;
@@ -42,44 +52,46 @@ nav ul li a {
     border-radius: 8px;
 }
 
-.contact-container h2 {
+.kontainer-kontak h2 {
     font-size: 28px;
     color: #333;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.contact-container p {
+.kontainer-kontak p {
     font-size: 16px;
     color: #555;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.input-group {
+/* Gaya Grup Input */
+.grup-input {
     margin-bottom: 15px;
 }
 
-.input-group label {
+.grup-input label {
     font-size: 14px;
     color: #333;
 }
 
-.input-group input,
-.input-group textarea {
+.grup-input input,
+.grup-input textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 7px;
     font-size: 16px;
 }
 
-.input-group textarea {
+.grup-input textarea {
     resize: vertical;
 }
 
-.contact-button {
+/* Tombol Kirim */
+.tombol-kirim {
     width: 100%;
     padding: 12px;
     background-color: #28a745;
@@ -87,13 +99,9 @@ nav ul li a {
     font-size: 16px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
 }
 
-.contact-button:hover {
-    background-color: #218838;
-}
-
+/* Footer */
 footer {
     background-color: #333333;
     color: white;
@@ -104,3 +112,15 @@ footer {
     width: 100%;
 }
 
+footer a {
+    color: #28a745;
+}
+
+/* Gaya untuk Semua Link */
+a {
+    text-decoration: none;
+}
+
+.tombol-kirim a {
+    color: white;
+}
