@@ -11,10 +11,7 @@ header {
     background-color: #28a745;
     padding: 20px 0;
     text-align: center;
-    width: 100%; /* Make header full-width */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-    position: relative;
-    z-index: 100; /* To ensure header is above other content */
+    width: 100%;
 }
 
 header h1 {
@@ -83,7 +80,6 @@ nav ul li a:hover {
 /* Field Selection Section */
 .field-selection {
     display: flex;
-    justify-content: space-between;
     margin-top: 40px;
     gap: 30px; /* Gap between items */
     flex-wrap: wrap;
@@ -107,6 +103,9 @@ nav ul li a:hover {
 .field-info {
     margin-bottom: 20px;
 }
+.field-info img {
+    width: 700px;
+}
 
 h2, h3 {
     color: #333;
@@ -126,14 +125,13 @@ h2, h3 {
 }
 
 .book-button {
-    background-color: #007BFF;
+    background-color: #28a745;
     color: white;
     padding: 12px 24px;
     font-size: 16px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 .book-button a {
     color: white;
@@ -141,17 +139,32 @@ h2, h3 {
 }
 
 .book-button:hover {
-    background-color: #0056b3;
+    background-color: #388e3c;
 }
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .field-selection {
-        flex-direction: column;
-        gap: 20px;
-    }
 
     .field-type {
         width: 100%;
     }
+
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
+
+footer a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
