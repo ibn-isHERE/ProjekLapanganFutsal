@@ -5,7 +5,7 @@ body, html {
     box-sizing: border-box;
 }
 
-/* Background styling */
+/* Latar Belakang */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -17,10 +17,10 @@ body {
     text-align: center;
 }
 
-/* Container styling */
-.confirmation-container {
-    width: 100%;
-    max-width: 400px;
+/* Gaya Kontainer Konfirmasi */
+.kontainer-konfirmasi {
+    width: 90%;
+    max-width: 500px;
     background: #fff;
     color: #4caf50;
     padding: 20px;
@@ -28,29 +28,29 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Box content styling */
-.confirmation-box h1 {
+/* Gaya Judul dan Pesan */
+.kotak-konfirmasi h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.confirmation-box .message {
+.kotak-konfirmasi .pesan {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-/* Button styling */
-.confirmation-box .btn {
+/* Tombol Kembali ke Beranda */
+.kotak-konfirmasi .tombol-beranda {
     display: inline-block;
     text-decoration: none;
     padding: 10px 20px;
     background: #4caf50;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
     border-radius: 5px;
-    transition: background 0.3s ease;
 }
 
-.confirmation-box .btn:hover {
+.kotak-konfirmasi .tombol-beranda:hover {
     background: #388e3c;
 }
